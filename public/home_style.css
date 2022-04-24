@@ -1,0 +1,80 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+    background-color: #8ecae6;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.mainheading {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    right: 30%;
+    font-size: 50px;
+    width: 50%;
+}
+
+.logoutbutton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px;
+    color: black;
+    width: 100px;
+    cursor: pointer;
+}
+
+.storagecontainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+.uploadformcontainer {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}
+
+.uploadformcontainer input {
+    border: 1px solid white;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wholeimagescontainer {
+    margin-top: 110px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.singleimagecontainer {
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.deletebutton {
+    cursor: pointer;
+}
